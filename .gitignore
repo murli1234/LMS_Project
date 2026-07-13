@@ -1,0 +1,83 @@
+# =========================
+# LMS Project - Root Git Ignore
+# =========================
+
+# ----- OS -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ----- IDE / Editors -----
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----- Environment & Secrets -----
+.env
+.env.*
+!.env.example
+*.local
+
+# Local Spring Boot overrides (keep real credentials out of Git)
+Backend/src/main/resources/application-local.properties
+Backend/src/main/resources/application-dev.properties
+
+# ----- Backend (Java / Spring Boot / Maven) -----
+Backend/target/
+Backend/build/
+Backend/out/
+Backend/.mvn/wrapper/maven-wrapper.jar
+
+Backend/*.log
+Backend/logs/
+
+# ----- Frontend (Node / React / Vite) -----
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/.vite/
+Frontend/coverage/
+
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+Frontend/lerna-debug.log*
+
+# ----- Logs (anywhere) -----
+logs/
+*.log
+
+# ----- Temporary / Cache -----
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*~
+
+# ----- Package manager locks (optional - uncomment if you prefer not to commit)
+# Frontend/package-lock.json
