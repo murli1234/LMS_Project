@@ -78,7 +78,7 @@ LMS_PROJECT/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/murli1234/LMS_Project/tree/main
 cd LMS_PROJECT
 ```
 
@@ -196,9 +196,7 @@ Production files are output to `Frontend/dist/`.
 | JWT secret & expiry | `Backend/.../application.properties` | Configure before deployment |
 | Frontend API URL | `Frontend/src/api/axiosConfig.js` | Must match backend URL |
 
-## Screenshots
 
-_Add screenshots of your dashboards here after deployment._
 
 ## Contributing
 
@@ -214,7 +212,7 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Your Name — [@your-github-username](https://github.com/your-github-username)
+Your Name — [@murli1234](https://github.com/murli1234)
 
 ---
 
