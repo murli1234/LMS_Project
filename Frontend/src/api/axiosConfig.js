@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Base URL for the backend API
-export const BASE_URL = 'http://localhost:9090/api';
+// Base URL for the backend API (use VITE_API_URL in Docker; defaults for local dev)
+export const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:9090/api';
 
 // Create axios instance
 const axiosInstance = axios.create({

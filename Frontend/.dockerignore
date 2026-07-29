@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.git/
+.gitignore
+*.log
+.env
+.env.*
+SETUP_GUIDE.md
+QUICK_REFERENCE.md
+POWERSHELL_SOLUTION.md
