@@ -212,7 +212,7 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Your Name — [@murli1234](https://github.com/murli1234)
+ [@murli1234](https://github.com/murli1234)
 
 ---
 
